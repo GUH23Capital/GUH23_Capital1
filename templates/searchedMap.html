@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9b910e48bd77566ce545498bdf67271a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9b910e48bd77566ce545498bdf67271a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9b910e48bd77566ce545498bdf67271a = L.map(
+                "map_9b910e48bd77566ce545498bdf67271a",
+                {
+                    center: [53.8611703, -2.5650887919475496],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1faece4fe60fc7ddc5f285bc47093b1a = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9b910e48bd77566ce545498bdf67271a);
+        
+    
+            var marker_43e841413038dc8fc0811f42c573bf64 = L.marker(
+                [53.97181926489053, -2.4186123501498384],
+                {}
+            ).addTo(map_9b910e48bd77566ce545498bdf67271a);
+        
+    
+        var popup_3d28d8cf4bfbaf8d3e8a15d4f865a654 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_939d434422595b17f3bf44579877c81b = $(`<div id="html_939d434422595b17f3bf44579877c81b" style="width: 100.0%; height: 100.0%;"><b>Car Stickers</b><br>Timestamp: 2023-09-27 10:34:26<br>Road:nan<br>City: Ribble Valley<br>County: Lancashire</div>`)[0];
+                popup_3d28d8cf4bfbaf8d3e8a15d4f865a654.setContent(html_939d434422595b17f3bf44579877c81b);
+            
+        
+
+        marker_43e841413038dc8fc0811f42c573bf64.bindPopup(popup_3d28d8cf4bfbaf8d3e8a15d4f865a654)
+        ;
+
+        
+    
+    
+            var marker_f85166d231e1c405d5c7ed7abccaa3fe = L.marker(
+                [54.0109816364178, -2.6901777291749176],
+                {}
+            ).addTo(map_9b910e48bd77566ce545498bdf67271a);
+        
+    
+        var popup_18e61b2001a8afacdc8b07a53fd29515 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_8f894716906b4c7e9d1d2e8f1528de4e = $(`<div id="html_8f894716906b4c7e9d1d2e8f1528de4e" style="width: 100.0%; height: 100.0%;"><b>Streetlamps</b><br>Timestamp: 2023-09-12 04:27:09<br>Road:Abbeystead Lane<br>City: Lancaster<br>County: Lancashire</div>`)[0];
+                popup_18e61b2001a8afacdc8b07a53fd29515.setContent(html_8f894716906b4c7e9d1d2e8f1528de4e);
+            
+        
+
+        marker_f85166d231e1c405d5c7ed7abccaa3fe.bindPopup(popup_18e61b2001a8afacdc8b07a53fd29515)
+        ;
+
+        
+    
+    
+            var marker_55e6c2de9ba17e612a2f25ca81412bbc = L.marker(
+                [53.998751851199856, -2.667370728149526],
+                {}
+            ).addTo(map_9b910e48bd77566ce545498bdf67271a);
+        
+    
+        var popup_1811545d402d53f863f20c13d29bd21b = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_1361ee7daf43a925a53ac8072c907ae8 = $(`<div id="html_1361ee7daf43a925a53ac8072c907ae8" style="width: 100.0%; height: 100.0%;"><b>Vapour</b><br>Timestamp: 2023-09-14 14:57:32<br>Road:nan<br>City: Lancaster<br>County: Lancashire</div>`)[0];
+                popup_1811545d402d53f863f20c13d29bd21b.setContent(html_1361ee7daf43a925a53ac8072c907ae8);
+            
+        
+
+        marker_55e6c2de9ba17e612a2f25ca81412bbc.bindPopup(popup_1811545d402d53f863f20c13d29bd21b)
+        ;
+
+        
+    
+    
+            var marker_14d1efbbada0e95c8fed0dd2e6bb5bf4 = L.marker(
+                [53.57771944632331, -2.969290323470039],
+                {}
+            ).addTo(map_9b910e48bd77566ce545498bdf67271a);
+        
+    
+        var popup_46f0dc28f5ac079a9c8931f6f2e4836a = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_2fe4b6a6355af44090fc318a0b26a2c3 = $(`<div id="html_2fe4b6a6355af44090fc318a0b26a2c3" style="width: 100.0%; height: 100.0%;"><b>Vapour</b><br>Timestamp: 2023-06-20 13:12:57<br>Road:Plex Moss Lane<br>City: West Lancashire<br>County: Lancashire</div>`)[0];
+                popup_46f0dc28f5ac079a9c8931f6f2e4836a.setContent(html_2fe4b6a6355af44090fc318a0b26a2c3);
+            
+        
+
+        marker_14d1efbbada0e95c8fed0dd2e6bb5bf4.bindPopup(popup_46f0dc28f5ac079a9c8931f6f2e4836a)
+        ;
+
+        
+    
+    
+            var marker_066132ebda54480128d3249de5ff681e = L.marker(
+                [53.85505633290538, -2.271158441724372],
+                {}
+            ).addTo(map_9b910e48bd77566ce545498bdf67271a);
+        
+    
+        var popup_5593e47d99bb374e44da49a1acb290b6 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_9fb4f4c7cde8bdd265c266a99e244020 = $(`<div id="html_9fb4f4c7cde8bdd265c266a99e244020" style="width: 100.0%; height: 100.0%;"><b>Fact News</b><br>Timestamp: 2023-07-27 16:08:07<br>Road:Cross Lane<br>City: Pendle<br>County: Lancashire</div>`)[0];
+                popup_5593e47d99bb374e44da49a1acb290b6.setContent(html_9fb4f4c7cde8bdd265c266a99e244020);
+            
+        
+
+        marker_066132ebda54480128d3249de5ff681e.bindPopup(popup_5593e47d99bb374e44da49a1acb290b6)
+        ;
+
+        
+    
+    
+            var marker_50949a139eb77922c6d7e7538b412c27 = L.marker(
+                [53.69332432270457, -2.884093094915652],
+                {}
+            ).addTo(map_9b910e48bd77566ce545498bdf67271a);
+        
+    
+        var popup_922cf62a7ee63263a1a416083399e058 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_473afc5c5074d0845cfc00249a6391d4 = $(`<div id="html_473afc5c5074d0845cfc00249a6391d4" style="width: 100.0%; height: 100.0%;"><b>Streetlamps</b><br>Timestamp: 2023-07-11 04:57:00<br>Road:Hundred End Lane<br>City: West Lancashire<br>County: Lancashire</div>`)[0];
+                popup_922cf62a7ee63263a1a416083399e058.setContent(html_473afc5c5074d0845cfc00249a6391d4);
+            
+        
+
+        marker_50949a139eb77922c6d7e7538b412c27.bindPopup(popup_922cf62a7ee63263a1a416083399e058)
+        ;
+
+        
+    
+    
+            var marker_c5fe4800f2396d2254236835fab90916 = L.marker(
+                [53.90768380717434, -2.337427532900516],
+                {}
+            ).addTo(map_9b910e48bd77566ce545498bdf67271a);
+        
+    
+        var popup_a154de9dac2d5a2f969c986a4049a318 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_08604fc356b9e8faa72810433b8b2d38 = $(`<div id="html_08604fc356b9e8faa72810433b8b2d38" style="width: 100.0%; height: 100.0%;"><b>CatShoes</b><br>Timestamp: 2023-08-04 01:50:44<br>Road:A59<br>City: Ribble Valley<br>County: Lancashire</div>`)[0];
+                popup_a154de9dac2d5a2f969c986a4049a318.setContent(html_08604fc356b9e8faa72810433b8b2d38);
+            
+        
+
+        marker_c5fe4800f2396d2254236835fab90916.bindPopup(popup_a154de9dac2d5a2f969c986a4049a318)
+        ;
+
+        
+    
+    
+            var marker_23db25d4e81c603815666aeb9b57c92f = L.marker(
+                [54.171002463311495, -2.7659897641066875],
+                {}
+            ).addTo(map_9b910e48bd77566ce545498bdf67271a);
+        
+    
+        var popup_c7a9a9a3cfa174af0537343987f67afc = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_d65b721951cb0e40b5eeb923e7c905b0 = $(`<div id="html_d65b721951cb0e40b5eeb923e7c905b0" style="width: 100.0%; height: 100.0%;"><b>MoonHog</b><br>Timestamp: 2023-09-11 15:08:45<br>Road:Footeran Lane<br>City: Lancaster<br>County: Lancashire</div>`)[0];
+                popup_c7a9a9a3cfa174af0537343987f67afc.setContent(html_d65b721951cb0e40b5eeb923e7c905b0);
+            
+        
+
+        marker_23db25d4e81c603815666aeb9b57c92f.bindPopup(popup_c7a9a9a3cfa174af0537343987f67afc)
+        ;
+
+        
+    
+    
+            var marker_6a6df6c85c475779697932032cc3c743 = L.marker(
+                [53.89133665552818, -2.2993929783881715],
+                {}
+            ).addTo(map_9b910e48bd77566ce545498bdf67271a);
+        
+    
+        var popup_9dd23c155928ef03e0f845e4b31d358f = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_16ffd2e0711c889b08ced792b5aa7ba3 = $(`<div id="html_16ffd2e0711c889b08ced792b5aa7ba3" style="width: 100.0%; height: 100.0%;"><b>Capital Two</b><br>Timestamp: 2023-07-14 19:18:34<br>Road:Twiston Lane<br>City: Ribble Valley<br>County: Lancashire</div>`)[0];
+                popup_9dd23c155928ef03e0f845e4b31d358f.setContent(html_16ffd2e0711c889b08ced792b5aa7ba3);
+            
+        
+
+        marker_6a6df6c85c475779697932032cc3c743.bindPopup(popup_9dd23c155928ef03e0f845e4b31d358f)
+        ;
+
+        
+    
+    
+            var marker_2bda90b7a96fd7c47b2b77e5141b082e = L.marker(
+                [53.87422328821391, -2.4339418568249216],
+                {}
+            ).addTo(map_9b910e48bd77566ce545498bdf67271a);
+        
+    
+        var popup_40f4f7974036f3a92ebcae5e16e2374f = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_274f785e317fb578fe12e11c3e540347 = $(`<div id="html_274f785e317fb578fe12e11c3e540347" style="width: 100.0%; height: 100.0%;"><b>Pear Retail</b><br>Timestamp: 2023-07-06 00:19:23<br>Road:Twitter Lane<br>City: Ribble Valley<br>County: Lancashire</div>`)[0];
+                popup_40f4f7974036f3a92ebcae5e16e2374f.setContent(html_274f785e317fb578fe12e11c3e540347);
+            
+        
+
+        marker_2bda90b7a96fd7c47b2b77e5141b082e.bindPopup(popup_40f4f7974036f3a92ebcae5e16e2374f)
+        ;
+
+        
+    
+    
+            var marker_569e69533ca78304ffd3962cf26207c2 = L.marker(
+                [53.839645365645694, -2.6325392478910827],
+                {}
+            ).addTo(map_9b910e48bd77566ce545498bdf67271a);
+        
+    
+        var popup_7f66d23ea023a8b476ed1c837f843fcc = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_99c5a73b681dfd8466baba170e4239b3 = $(`<div id="html_99c5a73b681dfd8466baba170e4239b3" style="width: 100.0%; height: 100.0%;"><b>Boardwalk Games</b><br>Timestamp: 2023-10-17 06:39:13<br>Road:Inglewhite Road<br>City: Preston<br>County: Lancashire</div>`)[0];
+                popup_7f66d23ea023a8b476ed1c837f843fcc.setContent(html_99c5a73b681dfd8466baba170e4239b3);
+            
+        
+
+        marker_569e69533ca78304ffd3962cf26207c2.bindPopup(popup_7f66d23ea023a8b476ed1c837f843fcc)
+        ;
+
+        
+    
+    
+            var marker_df463ed4d67fc1839fefc638486afc4d = L.marker(
+                [54.081092391425685, -2.7953036302317287],
+                {}
+            ).addTo(map_9b910e48bd77566ce545498bdf67271a);
+        
+    
+        var popup_7ec8fd440ebdd9d98dc8b66dc0b13d78 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_9dcd84df72ca441e6c909627d96a9672 = $(`<div id="html_9dcd84df72ca441e6c909627d96a9672" style="width: 100.0%; height: 100.0%;"><b>MoonHog</b><br>Timestamp: 2023-10-01 00:54:43<br>Road:Bottomdale Road<br>City: Lancaster<br>County: Lancashire</div>`)[0];
+                popup_7ec8fd440ebdd9d98dc8b66dc0b13d78.setContent(html_9dcd84df72ca441e6c909627d96a9672);
+            
+        
+
+        marker_df463ed4d67fc1839fefc638486afc4d.bindPopup(popup_7ec8fd440ebdd9d98dc8b66dc0b13d78)
+        ;
+
+        
+    
+    
+            var marker_92ba5f4c204fc3c2b2a5f18d4ebcd0c6 = L.marker(
+                [53.72839857101638, -2.260959240846918],
+                {}
+            ).addTo(map_9b910e48bd77566ce545498bdf67271a);
+        
+    
+        var popup_dd3b79d37a95a818314cc840276cacef = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_88c17a934a1e7dc11bf36f941d33320d = $(`<div id="html_88c17a934a1e7dc11bf36f941d33320d" style="width: 100.0%; height: 100.0%;"><b>Pear Retail</b><br>Timestamp: 2023-09-05 16:56:45<br>Road:nan<br>City: Rossendale<br>County: Lancashire</div>`)[0];
+                popup_dd3b79d37a95a818314cc840276cacef.setContent(html_88c17a934a1e7dc11bf36f941d33320d);
+            
+        
+
+        marker_92ba5f4c204fc3c2b2a5f18d4ebcd0c6.bindPopup(popup_dd3b79d37a95a818314cc840276cacef)
+        ;
+
+        
+    
+    
+            var marker_8199aca7b6572a7ec73b119a1fef4252 = L.marker(
+                [53.58417320397901, -3.0222077148065303],
+                {}
+            ).addTo(map_9b910e48bd77566ce545498bdf67271a);
+        
+    
+        var popup_5182600f573288c772cd2b789ab62501 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_8e0a51c42b4eb6965644abcc64c8dd0d = $(`<div id="html_8e0a51c42b4eb6965644abcc64c8dd0d" style="width: 100.0%; height: 100.0%;"><b>Streetlamps</b><br>Timestamp: 2023-07-26 20:34:08<br>Road:Plex Moss Lane<br>City: West Lancashire<br>County: Lancashire</div>`)[0];
+                popup_5182600f573288c772cd2b789ab62501.setContent(html_8e0a51c42b4eb6965644abcc64c8dd0d);
+            
+        
+
+        marker_8199aca7b6572a7ec73b119a1fef4252.bindPopup(popup_5182600f573288c772cd2b789ab62501)
+        ;
+
+        
+    
+    
+            var marker_867db34852a1984a4560fa40512c8ea8 = L.marker(
+                [54.06010707686856, -2.661193884329577],
+                {}
+            ).addTo(map_9b910e48bd77566ce545498bdf67271a);
+        
+    
+        var popup_30fb87b6008f1f6a6a7da25069c9ba68 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_1f59875ef3fce69be6ef89876a5dcd0e = $(`<div id="html_1f59875ef3fce69be6ef89876a5dcd0e" style="width: 100.0%; height: 100.0%;"><b>Boardwalk Games</b><br>Timestamp: 2023-09-17 16:39:56<br>Road:Roeburndale Road<br>City: Lancaster<br>County: Lancashire</div>`)[0];
+                popup_30fb87b6008f1f6a6a7da25069c9ba68.setContent(html_1f59875ef3fce69be6ef89876a5dcd0e);
+            
+        
+
+        marker_867db34852a1984a4560fa40512c8ea8.bindPopup(popup_30fb87b6008f1f6a6a7da25069c9ba68)
+        ;
+
+        
+    
+    
+            var marker_59f9bdbe1ae65c7e8a1b0ddd5c135766 = L.marker(
+                [54.02919465493337, -2.4491865417762084],
+                {}
+            ).addTo(map_9b910e48bd77566ce545498bdf67271a);
+        
+    
+        var popup_31c0c95458cc349a8a3d4d558910c390 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_a2d3ae1ea9cb9659cfdb53f0a15d7485 = $(`<div id="html_a2d3ae1ea9cb9659cfdb53f0a15d7485" style="width: 100.0%; height: 100.0%;"><b>Blahbucks</b><br>Timestamp: 2023-05-25 20:02:29<br>Road:nan<br>City: Ribble Valley<br>County: Lancashire</div>`)[0];
+                popup_31c0c95458cc349a8a3d4d558910c390.setContent(html_a2d3ae1ea9cb9659cfdb53f0a15d7485);
+            
+        
+
+        marker_59f9bdbe1ae65c7e8a1b0ddd5c135766.bindPopup(popup_31c0c95458cc349a8a3d4d558910c390)
+        ;
+
+        
+    
+</script>
+</html>
