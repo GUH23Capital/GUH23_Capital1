@@ -1,4 +1,4 @@
-# GUH23_Capital1
+# GUH23_CapitalOne
 ## Inspiration
 We only use online banking such as Sterling, Monzo etc. We got the inspiration from the application insights. What we wanted to achieve is to provide users of CapitalOne with visualized information easily by scripting.
 ## What it does
