@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Include CSS and JavaScript for the map -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css')}}"
+</head>
+<body>
+    <div id="map"></div>
+    <form id="search-form">
+        <input type="text" id="search-input" placeholder="Enter a city or merchant name">
+        <button type="submit">Search</button>
+    </form>
+    <br>
+    <iframe style="position: absolute;width:100%; height: 90%; border: none" src="/map" frameborder="1"></iframe>
+
+</body>
+</html>

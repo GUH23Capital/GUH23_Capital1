@@ -1,0 +1,36 @@
+
+/* Style for the input field */
+#search-input {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 50%;
+}
+
+/* Style for the button */
+#search-form button {
+    background-color: #007BFF; /* Change the background color to your preference */
+    color: #fff; /* Change the text color to your preference */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style for the map div */
+
+#search-form::before {
+    content: "Stay Fraud Away From";
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    margin-right: 10px;
+    font-weight: bold; /* Make the text thicker */
+    color: #FF5733; /* Change the text color to a noticeable color */
+    text-transform: uppercase; /* Uppercase the text */
+    letter-spacing: 2px; /* Add letter spacing for emphasis */
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
