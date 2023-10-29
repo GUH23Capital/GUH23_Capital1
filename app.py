@@ -57,6 +57,22 @@ def index():
 def sfaf():
     return render_template('sfaf.html')
 
+@app.route('/fraudStat')
+def fraudStat():
+    return render_template('fraudStat.html')
+
+@app.route('/cp')
+def cp():
+    return render_template('cp.html')
+
+@app.route('/accountTransaction')
+def accountTransaction():
+    return render_template('accountTransaction.html')
+
+@app.route('/merchantsAmount')
+def merchantsAmount():
+    return render_template('MerchantsAmount.html')
+
 @app.route('/map')
 def map():
     df = load_data()
