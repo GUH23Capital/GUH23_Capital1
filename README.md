@@ -16,8 +16,7 @@ Setting up the postman
 Analyzing the data from the API (Initially there was a lot of data.)
 
 ## Accomplishments that we're proud of
-We proud of we are producing that we could implemented
-We used our technics from university
+proud that we have selected our own norm of clustering and organized a lot of information based on the criteria that people will be curious about.
 
 ## What we learned
 API, NLP, Postman, GitHUB
